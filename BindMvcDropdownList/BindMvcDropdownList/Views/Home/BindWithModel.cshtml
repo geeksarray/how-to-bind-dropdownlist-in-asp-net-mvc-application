@@ -1,0 +1,8 @@
+﻿@{
+    ViewBag.Title = "Bind MVC DropDownList with Model - dotnetmentors.com";
+}
+@model BindMvcDropdownList.Models.CategoryModel
+
+<h1>Bind MVC DropDownList with Model</h1>
+
+@Html.DropDownListFor(x => x.selected, Model.lstCategory)

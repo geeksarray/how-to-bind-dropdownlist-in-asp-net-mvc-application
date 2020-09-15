@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "Bind MVC DropDownList with ViewBag - dotnetmentors.com";
+}
+
+<h1>Bind MVC DropDownList with ViewBag</h1>
+
+@using (Html.BeginForm("CategoryChosen", "Home", FormMethod.Get))
+{
+
+    <fieldset>
+
+        Category Type : 
+
+        @Html.DropDownList("CategoryType")
+        
+    </fieldset>
+
+}
+
